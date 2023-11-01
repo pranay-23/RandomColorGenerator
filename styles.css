@@ -1,0 +1,44 @@
+body{
+    background-color: #000;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    transition: 1.5s;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow:10px 10px; 
+}
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2.5rem;
+}
+
+.copy{
+    margin-top:20px;
+}
+
+.btn:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.btn{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    border: none;
+    transition: 1.5s;
+    padding: 10px;
+}
